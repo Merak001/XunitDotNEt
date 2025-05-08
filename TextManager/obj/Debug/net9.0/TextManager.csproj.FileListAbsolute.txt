@@ -1,0 +1,11 @@
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\bin\Debug\net9.0\TextManager.deps.json
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\bin\Debug\net9.0\TextManager.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\bin\Debug\net9.0\TextManager.pdb
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.AssemblyInfoInputs.cache
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.AssemblyInfo.cs
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.csproj.CoreCompileInputs.cache
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\refint\TextManager.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.pdb
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\ref\TextManager.dll
