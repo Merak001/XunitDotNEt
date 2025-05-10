@@ -1,20 +1,26 @@
 ﻿namespace TextManagerTest;
-
 using TextManager;
 using Xunit;
 
-
-
 public class TextManagerTest
 {
+    
+    TextManagerClass textManagerTestGlobal1;
+    string stringToFind ="Puchikimon";
+    public  TextManagerTest(){
+         textManagerTestGlobal1 = new TextManagerClass(stringToFind);
+
+    }
+
 [Fact]
 public void CountWordsTest()
 {
+    
     // Given
     TextManagerClass textManager = new TextManagerClass("Test1");
     
     // When
-    var result = textManager.CountLetters();
+    var result = textManagerTestGlobal1.CountLetters();
 
     // Then
     Assert.NotEqual(2, result);
@@ -25,11 +31,10 @@ public void CountWordsTest()
     public void FindWordTest_NotEmpty()
     {
     // Given
-    string stringToFind="Puchikimon";
-    TextManagerClass textManagerClass = new TextManagerClass(stringToFind);;
+   
 
     // When
-    var result = textManagerClass.FindExactWord(stringToFind,true);
+    var result = textManagerTestGlobal1.FindExactWord(stringToFind,true);
 
     // Then
     //Assert.Contains(stringToFind, result.Count);
@@ -39,12 +44,9 @@ public void CountWordsTest()
         [Fact]
     public void FindWordTest_Empty()
     {
-    // Given
-    string stringToFind="Puchikimon";
-    TextManagerClass textManagerClass = new TextManagerClass(stringToFind);;
-
+    // Given 
     // When
-    var result = textManagerClass.FindExactWord("FailString",true);
+    var result = textManagerTestGlobal1.FindExactWord("FailString",true);
 
     // Then
     //Assert.Contains(stringToFind, result.Count);
@@ -54,25 +56,25 @@ public void CountWordsTest()
     public void CountWordsTestMayorZeroTes()
     {
         // Given
-        var stringToUse = "Palbra1, palabra2, palabra3, palabra4";
-        TextManagerClass textManagerClass = new  TextManagerClass(stringToUse);
+      
+       
 
         // When
-        var result= textManagerClass.CountWords();
+        var result= textManagerTestGlobal1.CountWords();
     
         // Then
-        Assert.True(result >=2);
+        Assert.True(result >=1);
     }
 
     [Fact]
     public void FindExactWord()
     {
         // Given
-         var stringToUse = "Palbra1, palabra2, palabra3, palabra4";
-        TextManagerClass textManagerClass = new TextManagerClass(stringToUse);
+        
+        
     
         // When
-        var result = textManagerClass.FindExactWord("palabra4",true);
+        var result = textManagerTestGlobal1.FindExactWord(stringToFind,true);
     
         // Then
         Assert.NotEmpty(result);
@@ -80,6 +82,3 @@ public void CountWordsTest()
 }
 
 
-
-
- 

@@ -97,3 +97,4 @@ C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\obj\
 C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\bin\Debug\net9.0\.msCoverageSourceRootsMapping_TextManager.Test
 C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\bin\Debug\net9.0\TextManager.dll
 C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\bin\Debug\net9.0\TextManager.pdb
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\obj\Debug\net9.0\TextManager.Test.sourcelink.json

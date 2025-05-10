@@ -151,9 +151,8 @@ namespace TextManager
 
             foreach (Match item in matches)
             {
-                try
-                {
-                    if (bolIgnoreUppercaseLowercase)
+                
+                if (bolIgnoreUppercaseLowercase)
                 {
                     string strTempValue = item.Value.ToLower();
                     if (strTempValue.ToLower() == strWord.ToLower())
@@ -167,12 +166,6 @@ namespace TextManager
                     {
                         lstmatch.Add(item);
                     }
-                }
-                }
-                catch (System.Exception)
-                {
-                    
-                    throw;
                 }
 
                 

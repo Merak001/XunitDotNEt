@@ -9,3 +9,4 @@ C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug
 C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\refint\TextManager.dll
 C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.pdb
 C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\ref\TextManager.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.sourcelink.json
