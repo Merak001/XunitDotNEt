@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextManager.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d004ca0c0bde431d37ea9a53e9fd74989b64f674")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12574b443e061ca743bfcc6758e9fdd545658b68")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextManager.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextManager.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

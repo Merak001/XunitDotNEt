@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj": {}
+    "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj": {
+    "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj",
+        "projectUniqueName": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj",
         "projectName": "TextManager",
-        "projectPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj",
-        "packagesPath": "C:\\Users\\JoseManuelMorales\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\obj\\",
+        "projectPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj",
+        "packagesPath": "C:\\Users\\tragw\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JoseManuelMorales\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tragw\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

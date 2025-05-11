@@ -10,3 +10,15 @@ C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug
 C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.pdb
 C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\ref\TextManager.dll
 C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.sourcelink.json
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\bin\Debug\net9.0\TextManager.deps.json
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\bin\Debug\net9.0\TextManager.dll
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\bin\Debug\net9.0\TextManager.pdb
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\TextManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\TextManager.AssemblyInfoInputs.cache
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\TextManager.AssemblyInfo.cs
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\TextManager.csproj.CoreCompileInputs.cache
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\TextManager.sourcelink.json
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\TextManager.dll
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\refint\TextManager.dll
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\TextManager.pdb
+D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\ref\TextManager.dll

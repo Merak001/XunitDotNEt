@@ -944,23 +944,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JoseManuelMorales\\.nuget\\packages\\": {},
+    "C:\\Users\\tragw\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager.Test\\TextManager.Test.csproj",
+      "projectUniqueName": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager.Test\\TextManager.Test.csproj",
       "projectName": "TextManager.Test",
-      "projectPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager.Test\\TextManager.Test.csproj",
-      "packagesPath": "C:\\Users\\JoseManuelMorales\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager.Test\\obj\\",
+      "projectPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager.Test\\TextManager.Test.csproj",
+      "packagesPath": "C:\\Users\\tragw\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\JoseManuelMorales\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tragw\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -975,8 +975,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj": {
-              "projectPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj"
+            "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj": {
+              "projectPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj"
             }
           }
         }
