@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3YKsWn/4f4M=",
+  "dgSpecHash": "nHWG87bvA04=",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JoseManuelMorales\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

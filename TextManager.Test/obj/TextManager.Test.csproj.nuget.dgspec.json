@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager.Test\\TextManager.Test.csproj": {}
+    "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager.Test\\TextManager.Test.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager.Test\\TextManager.Test.csproj": {
+    "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager.Test\\TextManager.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager.Test\\TextManager.Test.csproj",
+        "projectUniqueName": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager.Test\\TextManager.Test.csproj",
         "projectName": "TextManager.Test",
-        "projectPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager.Test\\TextManager.Test.csproj",
-        "packagesPath": "C:\\Users\\tragw\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager.Test\\obj\\",
+        "projectPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager.Test\\TextManager.Test.csproj",
+        "packagesPath": "C:\\Users\\JoseManuelMorales\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tragw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JoseManuelMorales\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj": {
-                "projectPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj"
+              "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj": {
+                "projectPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj"
               }
             }
           }
@@ -57,6 +57,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.0-preview-25107-01, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "xunit": {
               "target": "Package",
@@ -89,20 +93,20 @@
         }
       }
     },
-    "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj": {
+    "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj",
+        "projectUniqueName": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj",
         "projectName": "TextManager",
-        "projectPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\TextManager.csproj",
-        "packagesPath": "C:\\Users\\tragw\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\DotNet\\Xunit\\XunitDotNEt\\TextManager\\obj\\",
+        "projectPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\TextManager.csproj",
+        "packagesPath": "C:\\Users\\JoseManuelMorales\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JoseManuelMorales\\source\\repos\\TextManagerProject\\TextManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tragw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JoseManuelMorales\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -134,6 +138,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -5,6 +5,7 @@ namespace TextManager
     using System.Linq;
     using System.Text;
     using System.Text.RegularExpressions;
+    using Microsoft.Extensions.Logging;
 
     /// <summary>
     /// general class for manager text
@@ -16,12 +17,14 @@ namespace TextManager
         /// Initializes a new instance of the <see cref="TextManager" /> class.
         /// </summary>
         /// <param name="strText">Text using for changes and caculate values</param>
-        public TextManagerClass(string strText)
+        public TextManagerClass(string strText, ILogger<TextManagerClass> logger)
         {
             this.TextOriginal = strText;
             this.TextEdited = strText;
+            this.Logger= logger;
         }
        
+        private ILogger<TextManagerClass> Logger;       
         /// <summary>
         /// Original text asignate in cretion object
         /// </summary>
@@ -42,7 +45,7 @@ namespace TextManager
             int intCount = 0;
             
             // Get number words
-            string[] arrayTextSplit = this.TextOriginal.Split(' ');
+            string[] arrayTextSplit = this.TextOriginal.Split(" ");
 
             foreach (var item in arrayTextSplit)
             {   
@@ -52,7 +55,7 @@ namespace TextManager
                     intCount++; 
                 }
             }
-
+            Logger.LogInformation($"Count fot words {TextOriginal}, is: {intCount}");
             return intCount;
         }
         

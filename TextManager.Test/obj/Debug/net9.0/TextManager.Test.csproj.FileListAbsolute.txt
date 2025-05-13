@@ -198,3 +198,9 @@ D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager.Test\obj\Debug\net9.0\refint\T
 D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager.Test\obj\Debug\net9.0\TextManager.Test.pdb
 D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager.Test\obj\Debug\net9.0\TextManager.Test.genruntimeconfig.cache
 D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager.Test\obj\Debug\net9.0\ref\TextManager.Test.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\bin\Debug\net9.0\Castle.Core.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\bin\Debug\net9.0\Moq.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+c:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager.Test\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll

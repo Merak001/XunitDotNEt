@@ -1,4 +1,8 @@
 ﻿namespace TextManagerTest;
+
+using Castle.Core.Logging;
+using Microsoft.Extensions.Logging;
+using Moq;
 using TextManager;
 using Xunit;
 
@@ -9,9 +13,12 @@ public class TextManagerTest
 
     TextManagerClass textManagerTestGlobal1;
     string stringToFind = "Puchikimon";
+    ILogger<TextManagerClass> loggerTest;
     public TextManagerTest()
     {
-        textManagerTestGlobal1 = new TextManagerClass(stringToFind);
+        var mock = new  Mock<ILogger<TextManagerClass>>();
+        loggerTest = mock.Object;
+        textManagerTestGlobal1 = new TextManagerClass(stringToFind,loggerTest);
 
     }
 
@@ -20,7 +27,7 @@ public class TextManagerTest
     {
 
         // Given
-        TextManagerClass textManager = new TextManagerClass("Test1");
+        TextManagerClass textManager = new TextManagerClass("Test1",loggerTest);
 
         // When
         var result = textManagerTestGlobal1.CountLetters();
@@ -88,7 +95,7 @@ public class TextManagerTest
     {
 
         // Given
-        TextManagerClass textManager2 = new TextManagerClass(text1);
+        TextManagerClass textManager2 = new TextManagerClass(text1,loggerTest);
 
         // When
         var result = textManagerTestGlobal1.CountWords();
@@ -103,13 +110,27 @@ public class TextManagerTest
     {
 
         // Given
-        TextManagerClass textManager2 = new TextManagerClass(text1);
+        TextManagerClass textManager2 = new TextManagerClass(text1,loggerTest);
 
         // When
         var result = textManagerTestGlobal1.CountWords();
 
         // Then
         Assert.Equal(numberOfWord, result);
+    }
+    
+        public void CountWordsTestMoq()
+    {
+        var mock = new Mock<TextManagerClass>("Texto"); 
+        //Esto es una expresión lambda que indica que cuando se llame al método CountWords() en el objeto simulado p retorne 1
+        mock.Setup(p=> p.CountWords()).Returns(1);    
+        // Given
+        TextManagerClass textManager = new TextManagerClass("Test1",loggerTest);
+
+        // When
+        var result = mock.Object.CountWords();
+        // Then
+        Assert.NotEqual(2, result);
     }
 }
 

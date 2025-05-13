@@ -22,3 +22,4 @@ D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\TextManager.d
 D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\refint\TextManager.dll
 D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\TextManager.pdb
 D:\Proyectos\DotNet\Xunit\XunitDotNEt\TextManager\obj\Debug\net9.0\ref\TextManager.dll
+C:\Users\JoseManuelMorales\source\repos\TextManagerProject\TextManager\obj\Debug\net9.0\TextManager.csproj.AssemblyReference.cache
